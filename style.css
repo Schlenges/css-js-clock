@@ -1,0 +1,47 @@
+body{
+	background: #333;
+	display:flex;
+    flex:1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock{
+	width: 20rem;
+	height: 20rem;
+	border:10px solid white;
+	border-radius:50%;
+	margin:50px auto;
+	position: relative;
+	padding:2rem;
+	background-image: url('Marble-Texture-011.jpg');
+	background-repeat: no-repeat;
+	background-position: 10% 5%;
+	box-shadow: 0 18px 40px;
+}
+
+.dial{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	transform: translateY(-3px);
+}
+
+.hand{
+	width:50%;
+    height:6px;
+    background:white;
+    position: absolute;
+    top:50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);   
+}
+
+.hour{
+	width:40%;
+	left:10%;
+}
+
+.second{
+	height:4px;
+}
